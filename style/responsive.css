@@ -5,11 +5,12 @@
         font-weight: 600;
         margin: 0;
         padding: 20px 0;
-        text-align: center;
-       
-        
-        
+        text-align: center;  
     }
+    .second{
+        display: none;
+    }
+
     .why-us{
         margin-top:80px;
         width: 100%;
@@ -25,9 +26,7 @@
 }
 
 @media  screen and (max-width:468px){
-    .second{
-        display: none;
-    }
+    
     .why-us{
         margin-top:30px;
        
