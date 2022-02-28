@@ -10,6 +10,9 @@
     .second{
         display: none;
     }
+    .footer-logo{
+        width:200px;
+    }
 
     .why-us{
         margin-top:80px;
