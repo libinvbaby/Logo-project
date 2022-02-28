@@ -64,7 +64,7 @@ return true;
 function validateForm() {
 if (!validateName() || !validatePhone() || !validateEmail() || !validateMessage()) {
   jsShow('submit-error');
-  producePrompt('Please fix errors to submit.', 'submit-error', 'red');
+  producePrompt('Please fill the form', 'submit-error', 'red');
   setTimeout(function(){jsHide('submit-error');}, 2000);
   return false;
 }
