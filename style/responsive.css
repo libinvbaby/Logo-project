@@ -1,0 +1,46 @@
+@media  screen and (max-width:768px) {
+    h1, h2, h3, h3, h4, h5, h6{
+        font-family: 'Sora', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 0;
+        padding: 20px 0;
+        text-align: center;
+       
+        
+        
+    }
+    .why-us{
+        margin-top:80px;
+        width: 100%;
+    }
+    
+    .about-image{
+        width: 100%;
+    }
+    .service-box{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media  screen and (max-width:468px){
+    .second{
+        display: none;
+    }
+    .why-us{
+        margin-top:30px;
+       
+    }
+    .blockquote-footer{
+        margin-bottom: 50px;;
+    }
+   
+    .client-review-stars{
+        margin-top:-8   0px;
+    }
+    .footer-link{
+        font-size:20px;
+        margin-left: 0px;
+    }
+}
